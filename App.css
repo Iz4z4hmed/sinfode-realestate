@@ -1,0 +1,1470 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar button {
+  background-color: #0074aa;
+  color: #eee;
+  font-size: medium;
+  border: none;
+  font-weight: 600;
+}
+
+.navbar button:hover {
+  color: #eee;
+  background-color: #0074aa;
+}
+
+.navbar img {
+  height: 3.5rem;
+  width: 10rem;
+}
+
+.header-bgimg {
+  /* background-image: url('C:\Users\A4iZAZ\Desktop\sinfode-does-realestate\public\houseimage1.jpeg'); */
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.header-bgimg ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 5rem 3rem;
+  color: #000;
+  font-weight: 500;
+  font-size: large;
+}
+
+.header-bgimg ul li:hover {
+  color: #0074aa;
+  transition: .5s;
+  text-decoration: underline;
+}
+
+.heading-div1 {
+  color: #000;
+  position: absolute;
+}
+
+.heading-div1 h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.heading-div1 h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #0074aa;
+}
+
+
+.heading-div2 h6 {
+  display: inline;
+  font-weight: 500;
+  padding: 1rem;
+  /* border-bottom: 1px solid #fff; */
+  border-bottom: 3px solid #0074aa;
+}
+
+.heading-div2 h6:hover {
+  text-decoration: underline;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+
+/* ........................navbe mediatage................. */
+
+@media(max-width: 50rem) {
+  .navbar button {
+    padding: .5rem;
+    font-size: xx-small;
+    font-weight: 500;
+    width: 5rem;
+  }
+
+
+  .navbar img {
+    height: 2.5rem;
+    width: 5rem;
+  }
+
+  .header-bgimg ul li {
+    padding: 4rem 1.5rem;
+    font-weight: 500;
+    font-size: xx-small;
+  }
+
+
+  .heading-div1 h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+  }
+
+  .heading-div1 h2 {
+    font-size: 1rem;
+    font-weight: 800;
+
+  }
+
+
+  .heading-div2 h6 {
+    font-weight: 500;
+    padding: 1rem;
+
+  }
+
+  .heading-div1 .paragarph {
+    font-size: .7rem;
+  }
+
+  .heading-div1 {
+    font-size: xx-small;
+    position: absolute;
+    top: -2.5rem;
+    left: -2.5rem;
+    line-break: auto;
+  }
+
+}
+
+.search-container {
+  /* margin-top: 3rem; */
+  padding-top: 1rem;
+}
+
+.search-container input {
+  height: 2.8rem;
+  width: 50%;
+  text-align: start;
+  padding: .5rem;
+}
+
+.search-container button {
+  padding: 6px 10px;
+  background: #0074aa;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+.search-container .search-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #fff;
+}
+
+.search-container .search-icon:hover {
+  color: #eee;
+}
+
+.heading-div1 p {
+  font-weight: 500;
+  font-size: large;
+}
+
+
+img {
+  height: 80vh;
+  float: right;
+  border-radius: 1.3rem;
+  /* opacity: .8; */
+}
+
+.opacity{
+
+  opacity: .6;
+}
+
+.inside-row {
+  position: relative;
+  top: -8rem;
+  left: 5rem;
+  background-color: #fff;
+  height: 4.5rem;
+  width: 60%;
+  border-radius: 1rem;
+  text-align: center;
+  padding: .4rem;
+  border: 1px solid lightgrey;
+
+}
+
+.inside-row select {
+  border: 0;
+}
+
+.inside-row button {
+  height: 2rem;
+  width: 2rem;
+  border: 0;
+  background-color: #0074aa;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.icons {
+  height: 2.2rem;
+  width: 2.2rem;
+  color: #0074aa;
+}
+
+.bld {
+  font-size: x-large;
+}
+
+.search-input{
+  border: 0;
+  font-size: smaller;
+  text-decoration: none;
+  text-align: center;
+  height: 1.5rem;
+}
+
+
+
+/* .....................crousal mediatage.................... */
+
+@media(max-width: 50rem) {
+  img {
+    /* padding: 2rem; */
+    height: 38vh;
+    float: right;
+    border-radius: 1.3rem;
+    /* width: 50rem; */
+    opacity: 1;
+  }
+
+  .inside-row {
+    position: relative;
+    top: 4rem;
+    left: -.1rem;
+    background-color: #fff;
+    height: 4.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    text-align: center;
+    padding: .5rem;
+    border: 1px solid lightgrey;
+
+
+  }
+
+  .inside-row .col {
+    font-size: .7rem;
+    border-left: none;
+  }
+
+  .inside-row .col .inside-p {
+    font-size: .7rem;
+  }
+
+  .inside-row iframe {
+    width: 100%;
+  }
+
+  .cities .col {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icons {
+    height: 1rem;
+    width: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bld {
+    font-size: medium;
+  }
+
+  .cities .col div {
+    font-size: small;
+  }
+
+}
+
+/* .............................whatsapp button.............................. */
+
+
+.whatsapp {
+  height: 4rem;
+  width: 4rem;
+  /* background-color: #25D366; */
+  /* color: #fff; */
+  position: fixed;
+  left: 93%;
+  top: 80%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, .2);
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border: transparent;
+}
+
+.wtsicon {
+  height: 4rem;
+  width: 4rem;
+  color: #25D366;
+}
+
+.btn-close {
+  position: fixed;
+  left: 94.5%;
+  top: 75%;
+  visibility: hidden;
+}
+
+.search:hover .btn-close {
+  visibility: visible;
+}
+
+.form:hover .search {
+  visibility: hidden;
+
+}
+
+
+.slider h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.slider p {
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+}
+
+/* ...........................whatsapp mediatage.................. */
+
+@media(max-width:50rem){
+
+  .whatsapp {
+    height: 3rem;
+    width: 3rem;
+    /* background-color: #25D366; */
+    /* color: #fff; */
+    position: fixed;
+    left: 73%;
+    top: 80%;
+    
+  }
+  
+  .wtsicon {
+    height: 3rem;
+    width: 3rem;
+    color: #25D366;
+  }
+  .btn-close {
+    position: fixed;
+    left: 75.5%;
+    top: 75%;
+    visibility: hidden;
+  }
+  
+  
+  .slider h1 {
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .slider p {
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+  }
+  
+}
+
+
+.contectdiv1 {
+  height: 0;
+  width: 0;
+  border-bottom: 4rem solid transparent;
+  border-top: 0rem solid transparent;
+  /* border-right: 35rem solid lightgrey; */
+  border-left: 60rem solid lightgrey;
+
+  /* float: right; */
+
+}
+
+.contectdiv2 {
+  height: 0;
+  width: 0;
+  border-bottom: 0rem solid transparent;
+  border-top: 6rem solid transparent;
+  border-right: 35rem solid lightgrey;
+  /* border-left: 60rem solid lightgrey; */
+
+  float: right;
+  /* position: relative; */
+  /* left: 18rem; */
+
+}
+
+.form-control {
+  border-radius: 5px;
+  height: 3rem;
+  /* width: 12rem; */
+}
+
+.info {
+  height: 3rem;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.textarea {
+  border-color: lightgrey;
+  border-radius: 5px;
+}
+
+.para1 {
+  font-family: sans-serif;
+  font-size: larger;
+}
+
+@media(max-width:50rem) {
+  .contectdiv1 {
+    border-left: 25rem solid lightgrey;
+  }
+
+  .textarea {
+    width: 27rem;
+  }
+}
+
+/* ...............................whatsapp button form................................ */
+
+.form {
+  position: absolute;
+  left: -22rem;
+  visibility: visible;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #25D366, #eee);
+  width: 25rem;
+  transform: translateY(-23rem);
+  transition: 1s;
+  border-radius: 6px;
+
+}
+
+.form-select {
+  font-size: medium;
+}
+
+@media(max-width:50rem){
+
+  .form{
+    position: absolute;
+  left: -16rem;
+  visibility: visible;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, #25D366, #eee);
+  width: 18rem;
+  transform: translateY(-23rem);
+  transition: 1s;
+  border-radius: 6px;
+  }
+}
+
+/* ..................................hr tage............................ */
+
+.hrtage {
+  border: 2px solid #0085ff;
+  width: 5rem;
+}
+
+.frame h4 {
+  font-weight: 600;
+}
+
+.frame p {
+  font-weight: 400;
+  letter-spacing: .05rem;
+}
+
+
+/*.............. grid items style ...................*/
+
+
+
+.bgcol1 {
+  background-image: linear-gradient(to right, #eee, lightgrey, lightgrey);
+  background-image: url('C:\Users\A4iZAZ\Desktop\sinfode-does\public\image6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  border-radius: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.bgcol2 {
+  background-image: linear-gradient(to right, #eee, lightgrey, lightgrey);
+  background-image: url('C:\Users\A4iZAZ\Desktop\sinfode-does\public\image5.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+
+}
+
+.bgcol3 {
+  background-image: linear-gradient(to right, #eee, lightgrey, lightgrey);
+  background-image: url('C:\Users\A4iZAZ\Desktop\sinfode-does\public\images7.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+
+}
+
+.bgcol1 h4 {
+  position: absolute;
+  padding: .5rem;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.bgcol1:hover h4 {
+  visibility: hidden;
+}
+
+.bgcol2 h4 {
+  position: absolute;
+  padding: 1rem;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.bgcol2:hover h4 {
+  visibility: hidden;
+}
+
+.bgcol3 h4 {
+  position: absolute;
+  padding: .5rem;
+  font-size: x-large;
+  font-weight: 600;
+
+}
+
+.bgcol3:hover h4 {
+  visibility: hidden;
+}
+
+.griddivicons {
+  position: absolute;
+  margin-top: 6.5rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: #eee;
+  border-radius: 100%;
+  padding: .5rem;
+  font-size: larger;
+}
+
+.bgcol1 p {
+  position: absolute;
+  padding: .5rem;
+  font-size: large;
+  font-weight: 600;
+  visibility: hidden;
+  color: black;
+}
+
+.bgcol2 p {
+  position: absolute;
+  padding: .5rem;
+  font-size: large;
+  font-weight: 600;
+  visibility: hidden;
+  color: black;
+}
+
+.bgcol3 p {
+  position: absolute;
+  padding: .5rem;
+  font-size: large;
+  font-weight: 600;
+  visibility: hidden;
+  color: black;
+}
+
+.bgcol1:hover p {
+  visibility: visible;
+}
+
+.bgcol2:hover p {
+  visibility: visible;
+}
+
+.bgcol3:hover p {
+  visibility: visible;
+}
+
+.bgcol1:hover {
+  background-image: linear-gradient(to left, #0074aa, #eee);
+}
+
+.bgcol2:hover {
+  background-image: linear-gradient(to left, #0074aa, #eee);
+}
+
+.bgcol3:hover {
+  background-image: linear-gradient(to left, #0074aa, #eee);
+}
+
+
+/* ............................griditems mediatage........................ */
+
+@media(max-width:50rem) {
+  .grid-row {
+    display: list-item;
+    height: auto;
+    /* padding: 2rem; */
+  }
+
+  .bgcol1 {
+    height: 25vh;
+    border-radius: 1rem;
+    padding: 0;
+  }
+
+  .bgcol2 {
+    height: 25vh;
+    margin-top: 1rem;
+  }
+
+  .bgcol3 {
+
+    height: 25vh;
+    margin-top: 1rem;
+
+  }
+}
+
+
+
+
+/* ..................... middle styles / middle row1................... */
+
+
+.middle-heading {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 5rem;
+}
+
+.middle-heading h1 {
+  color: #0074aa;
+  font-weight: 700;
+}
+
+.middle-heading p {
+  font-weight: 500;
+  font-size: larger;
+}
+
+.middle-row {
+  margin-top: 7rem;
+}
+
+.middle-image1 {
+  height: 25vh;
+  width: 100%;
+}
+
+.middle-image3 {
+  height: 35vh;
+  width: 100%;
+}
+
+.middle-row h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.middle-row p {
+  font-size: larger;
+  font-weight: 400;
+  color: #696969;
+}
+
+/* .......................midde-row1 mediatage.......................... */
+
+@media(max-width:50rem) {
+
+  .middle-image1 {
+    display: none;
+  }
+
+  .middle-image3 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .middle-row h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+
+  .middle-row p {
+    font-size: large;
+    font-weight: 300;
+  }
+
+  .middle-row .col-6 {
+    width: 100%;
+  }
+
+}
+
+/* ................................middle row2........................... */
+
+.middle-row2 {
+  margin-top: 8rem;
+}
+
+.middle-row2 h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.middle-row2 p {
+  font-size: larger;
+  font-weight: 400;
+  color: #696969;
+}
+
+.middle-image4 {
+  height: 70%;
+  width: 30vw;
+}
+
+.middle-image5 {
+  height: 40vh;
+}
+
+.middle-image5-col {
+  position: relative;
+  top: 5rem;
+  left: 15rem;
+}
+
+/* ....................middle row2 mediatage................... */
+
+@media(max-width:50rem) {
+
+  .middle-row2 {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .middle-row2 p {
+    font-size: large;
+    font-weight: 300;
+  }
+
+  .middle-image4 {
+    height: 40vh;
+    width: 50vw;
+  }
+
+  .middle-image5 {
+    height: 20vh;
+    position: relative;
+    left: -10rem;
+  }
+
+}
+
+/* ................................middle row3........................... */
+
+
+.middle-row3 {
+  margin-top: 0;
+}
+
+.middle-row3 h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.middle-row3 p {
+  font-size: larger;
+  font-weight: 400;
+  color: #696969;
+}
+
+.middle-image6 {
+  height: 85%;
+  width: 25vw;
+}
+
+.middle-image7 {
+  height: 40vh;
+
+}
+
+.middle-image7-col {
+  position: relative;
+  top: 5rem;
+  left: 10rem;
+}
+
+/* ....................middle row3 mediatage................... */
+
+@media(max-width:50rem) {
+  .middle-row3 {
+    margin-top: 2rem;
+    padding: 0;
+  }
+
+  .middle-row3 h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+
+  .middle-row3 p {
+    font-size: large;
+    font-weight: 300;
+  }
+
+  .middle-image6 {
+    height: 40vh;
+    width: 50vw;
+  }
+
+  .middle-image7 {
+    height: 20vh;
+    position: relative;
+    left: -6rem;
+
+  }
+
+}
+
+
+/* ................................middle row4........................... */
+
+.middle-row4 {
+  margin-top: 0;
+  padding-top: 5rem;
+}
+
+.middle-row4 h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.middle-row4 p {
+  font-size: larger;
+  font-weight: 400;
+  color: #696969;
+}
+
+.middle-image8 {
+  height: 30vh;
+  width: 100%;
+}
+
+.middle-image9 {
+  height: 30vh;
+  width: 100%;
+}
+/* ....................middle row4 mediatage................... */
+
+@media(max-width:50rem){
+  .middle-row4 {
+    margin:0;
+    padding-top: 0;
+  }
+  
+  .middle-row4 h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+  
+  .middle-row4 p {
+    font-size: large;
+    font-weight: 300;
+  }
+  
+  .middle-image8 {
+    height: 20vh;
+    width: 100%;
+  }
+  
+  .middle-image9 {
+    height: 20vh;
+    width: 100%;
+  }
+  .middle-row4 .row-cols-2{
+    width: 100vw;
+    padding: 0;
+    position: relative;
+    left: -1.5rem;
+  }
+}
+
+
+/* ................................middle row5........................... */
+
+.middle-row5 {
+  margin-top: 0;
+  padding-top: 5rem;
+}
+
+.middle-row5 h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.middle-row5 p {
+  font-size: larger;
+  font-weight: 400;
+  color: #696969;
+}
+
+.middle-image12 {
+  height: 30vh;
+  width: 100%;
+}
+
+.middle-image13 {
+  height: 30vh;
+  width: 100%;
+}
+
+/* ....................middle row5 mediatage................... */
+
+@media(max-width:50rem){
+
+  .middle-row5 {
+    margin-top: 0;
+    padding:0;
+  }
+  
+  .middle-row5 h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+  
+  .middle-row5 p {
+    font-size: large;
+    font-weight: 300;
+  }
+  
+  .middle-image12 {
+    height: 20vh;
+    width: 100%;
+  }
+  
+  .middle-image13 {
+    height: 20vh;
+    width: 100%;
+  }
+
+  .middle-row5 .row-cols-2{
+    width: 100vw;
+    padding: 0;
+    position: relative;
+    left: -.8rem;
+  }
+}
+
+
+
+/* ................................lower row........................... */
+
+.lower-row h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.lower-image1 {
+  height: 75vh;
+  width: auto;
+  border: 5px solid black;
+  position: relative;
+  top: 3rem;
+  left: -3rem;
+  box-shadow: 0px 0px 100px 15px rgba(71, 81, 230, 0.2);
+}
+
+/* ............................lower mediatage...................... */
+
+@media(max-width:50rem){
+
+  .lower-row{
+    margin-top: -5rem;
+    padding: 0;
+    width: 100vw;
+    position: relative;
+    left: -2rem;
+  }
+  
+.lower-row h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.lower-image1 {
+  height: 55vh;
+  width: auto;
+  border: 5px solid black;
+  position: relative;
+  top: -1rem;
+  left: -5rem;
+}
+
+.lower-row iframe{
+  width: 100%;
+}
+}
+
+
+/* ..............................Lower carousal-images...................... */
+
+.carousal-div {
+  display: inline;
+  height: 55vh;
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-track {
+  animation: carousal-around 30s linear infinite;
+  display: flex;
+  width: calc(15.5rem * 14);
+}
+
+.slide-track:hover {
+  animation-name: carousal-around;
+  animation-play-state: paused;
+}
+
+.carousal-div img {
+  height: 5rem;
+  width: 15rem;
+}
+
+.bgimg {
+  height: auto;
+  width: auto;
+  background-color: #f5f3f3;
+  padding: 1rem;
+}
+
+@keyframes carousal-around {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-15.5rem *7));
+  }
+}
+
+/* ..........................Lower carousal media tage................... */
+
+@media(max-width:50rem){
+  .carousal-div img {
+    height: 4rem;
+    width: 10rem;
+  }
+}
+
+
+/* ................................Footer........................... */
+
+.footer ul li {
+  list-style-type: none;
+  padding: .3rem;
+}
+
+.footer-image {
+  height: 5rem;
+  width: 12rem;
+}
+
+.footer.icons {
+  height: 5rem;
+  width: 5rem;
+}
+
+.footer .icons:hover {
+  /* background-color: #eee; */
+  color: #eee;
+  transition: .5s;
+}
+
+.footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer p {
+  display: inline-block;
+  font-size: small;
+  text-align: center;
+  padding-top: 1rem;
+  color: grey;
+}
+
+/* ..........................footer mediatage....................... */
+
+@media(max-width: 50rem){
+  .footer ul li {
+    list-style-type: none;
+    /* padding: .1rem; */
+    margin: 0;
+    padding: 0;
+    font-size: xx-small;
+  }
+  
+  .footer-image {
+    height: 3rem;
+    width: 8rem;
+  }
+  
+  .footer.icons {
+    height: 5rem;
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer p {
+    display: inline-block;
+    font-size: xx-small;
+    text-align: center;
+    /* padding-top: 1rem; */
+    color: grey;
+  }
+
+}
+
+
+/* ................................readmore.......................... */
+
+.readmore-bgimg{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto/v1649072021/Website/CMS-Uploads/nuluzpoqna5x8rart8km.jpg');
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  /* opacity: ; */
+  box-shadow: inset 0px 0px 100px 20px rgba(0, 0, 0, .3);
+}
+
+/* .readmore-bgimg .fade{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(230, 26, 26, 0.5);
+} */
+
+.economy-times{
+  padding: 21rem 15rem 1rem 6rem;
+  color: #eee;
+}
+
+.economy-times h5{
+  font-weight: 400;
+}
+
+.readmore-row1{
+  display: flex;
+  column-gap: 2rem;
+}
+
+.readmore-bgimg2 {
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto/v1649065314/Website/CMS-Uploads/jtb9yykjskdv4yqpdinn.png');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px 0px 200px 15px rgba(0, 0, 0, .2);
+
+}
+
+.readmore-headings1{
+  padding: 15rem 0rem 0rem .5rem;
+}
+.readmore-headings1 h3{
+  font-weight: 400;
+}
+
+.readmore-bgimg3{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto/v1620299110/Website/CMS-Uploads/qajr5ccg4q7sejn5vbom.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  /* opacity: 2; */
+  box-shadow: inset 0px -35px 150px 50px rgba(0, 0, 0, .7);
+
+}
+
+.readmore-row2{
+  display: flex;
+  column-gap: 2rem;
+}
+
+.readmore-bgimg4{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto/v1620299201/Website/CMS-Uploads/ocl57liadwcaoeuomhra.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+}
+
+.readmore-bgimg5{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609996192/Website/CMS-Uploads/k4xjv9lttsxekngkgo9n.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px -25px 150px 30px rgba(0, 0, 0, .8);
+
+}
+
+.readmore-bgimg6{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609996934/Website/CMS-Uploads/sqw48vme8ofvwsvg55ko.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px -25px 150px 30px rgba(0, 0, 0, .3);
+
+}
+
+.readmore-headings2{
+  padding: 10rem 0rem 0rem .5rem;
+}
+
+/* .................................readmore 2................................... */
+
+
+.readmore-bgimg2{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609995779/Website/CMS-Uploads/wfcvypvhoq2ewvvmsugq.jpg');
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  /* opacity: ; */
+  box-shadow: inset 0px 0px 300px 20px rgba(0, 0, 0, .8);
+}
+
+
+.readmore-bgimg4-2{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609997141/Website/CMS-Uploads/a30zgua0lw4l31uts76s.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+}
+
+.readmore-bgimg5-2{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609997373/Website/CMS-Uploads/gncx61keejqdwjdzvrgo.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px -25px 150px 30px rgba(0, 0, 0, .8);
+
+}
+
+.readmore-bgimg6-2{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609998264/Website/CMS-Uploads/rz2sexblmdiqbxy5lmpn.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px -25px 150px 30px rgba(0, 0, 0, .3);
+
+}
+
+.readmore-bgimg2-2 {
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609998418/Website/CMS-Uploads/etwomxvei8ak2fjnme6f.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px 0px 200px 15px rgba(0, 0, 0, .2);
+
+}
+
+.readmore-bgimg3-2{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609997826/Website/CMS-Uploads/rkblhfghgy8kirspmy9d.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  /* opacity: 2; */
+  box-shadow: inset 0px -35px 150px 50px rgba(0, 0, 0, .7);
+
+}
+
+
+/* ...............................row-3 css......................................... */
+
+
+.readmore-bgimg-3{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609998078/Website/CMS-Uploads/xg3ulqdogfnsxlp9yukx.jpg');
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  /* opacity: ; */
+  box-shadow: inset 0px 0px 300px 20px rgba(0, 0, 0, .8);
+  /* background-image: linear-gradient(); */
+}
+
+
+.readmore-bgimg4-3{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609998572/Website/CMS-Uploads/q0iqicmnoln6afa2prsn.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+}
+
+.readmore-bgimg5-3{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609998664/Website/CMS-Uploads/cgajhajybz1n2mdiiqin.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px -25px 150px 30px rgba(0, 0, 0, .8);
+
+}
+
+.readmore-bgimg6-3{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609999019/Website/CMS-Uploads/tj7tzaenxlfevvxu5cn4.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px -25px 150px 30px rgba(0, 0, 0, .3);
+
+}
+
+.readmore-bgimg2-3 {
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609999082/Website/CMS-Uploads/w6g1qptty3qjzixasp35.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  box-shadow: inset 0px 0px 200px 15px rgba(0, 0, 0, .2);
+
+}
+
+.readmore-bgimg3-3{
+  background-image: url('https://res.cloudinary.com/stanza-living/image/upload/v1609999913/Website/CMS-Uploads/cc1wc7cyilhewgvwfvhp.jpg');
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #eee;
+  /* opacity: 2; */
+  box-shadow: inset 0px -35px 150px 50px rgba(0, 0, 0, .7);
+
+}
+
+
+/* ................................... foundPGs css.................................. */
+
+.founddiv .foundul li{
+  display: inline-flex;
+  /* column-gap: 2rem; */
+  list-style-type: none;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  border-radius: 50px;
+  /* padding-top: 0; */
+  color: #504f4f;
+}
+
+.founddiv .foundul{
+  display: flex;
+  column-gap: 2rem;
+}
+
+.foundpg:hover .hoverheading{
+  color: #0074aa;
+}
+
+.foundpg .foundimg1{
+  height: 52vh;
+  width: 100%;
+}
+
+.foundpg:hover .foundimg1{
+  height: 54vh;
+  width: 102%;
+  /* transform: scaleX(.5rem); */
+  transition: ease-in-out .5s;
+}
